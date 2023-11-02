@@ -96,22 +96,6 @@ namespace EcoMoment
             }
             else
             {
-                try
-                {
-                    UsuarioAdm uadm = new UsuarioAdm();
-                    if (uadm.atualizarUsuarioAdm(int.Parse(comboBoxExcluirAdm.SelectedItem.ToString()), txtNomeExcluirAdm.Text, txtEmailExcluirAdm.Text, txtSenhaExcluirAdm.Text))
-                    {
-                        MessageBox.Show("Usuário atualizado com sucesso!");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Erro ao atualizar Usuário Adm. Tente novamente.");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Erro de execução.");
-                }
                 MessageBox.Show("Nenhum campo pode estar vazio. Preencha todos e tente novamente.");
             }
         }

@@ -73,9 +73,9 @@ namespace EcoMoment.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Atualizar_Web {
+        internal static System.Drawing.Bitmap Atualizar_Web1 {
             get {
-                object obj = ResourceManager.GetObject("Atualizar Web", resourceCulture);
+                object obj = ResourceManager.GetObject("Atualizar Web1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

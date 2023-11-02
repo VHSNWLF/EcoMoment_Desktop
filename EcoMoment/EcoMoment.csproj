@@ -249,9 +249,6 @@
     <None Include="Resources\Atualizar Adm.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Atualizar Web.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Excluir Web.png" />
   </ItemGroup>
   <ItemGroup>
@@ -262,6 +259,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Consultar usuários pelo nome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atualizar Web1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

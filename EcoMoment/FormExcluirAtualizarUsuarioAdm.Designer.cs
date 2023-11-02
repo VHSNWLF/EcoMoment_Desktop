@@ -44,7 +44,7 @@
             this.comboBoxExcluirAdm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxExcluirAdm.Name = "comboBoxExcluirAdm";
             this.comboBoxExcluirAdm.Size = new System.Drawing.Size(243, 24);
-            this.comboBoxExcluirAdm.TabIndex = 19;
+            this.comboBoxExcluirAdm.TabIndex = 0;
             this.comboBoxExcluirAdm.SelectedIndexChanged += new System.EventHandler(this.comboBoxExcluirAdm_SelectedIndexChanged);
             // 
             // txtNomeExcluirAdm
@@ -53,7 +53,7 @@
             this.txtNomeExcluirAdm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNomeExcluirAdm.Name = "txtNomeExcluirAdm";
             this.txtNomeExcluirAdm.Size = new System.Drawing.Size(243, 22);
-            this.txtNomeExcluirAdm.TabIndex = 18;
+            this.txtNomeExcluirAdm.TabIndex = 1;
             this.txtNomeExcluirAdm.TextChanged += new System.EventHandler(this.txtNomeExcluirAdm_TextChanged);
             // 
             // btnExcluirAdm
@@ -65,7 +65,7 @@
             this.btnExcluirAdm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExcluirAdm.Name = "btnExcluirAdm";
             this.btnExcluirAdm.Size = new System.Drawing.Size(243, 46);
-            this.btnExcluirAdm.TabIndex = 17;
+            this.btnExcluirAdm.TabIndex = 4;
             this.btnExcluirAdm.Text = "Excluir/ Atualizar";
             this.btnExcluirAdm.UseVisualStyleBackColor = false;
             this.btnExcluirAdm.Click += new System.EventHandler(this.btnExcluirAdm_Click);
@@ -76,7 +76,7 @@
             this.txtSenhaExcluirAdm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSenhaExcluirAdm.Name = "txtSenhaExcluirAdm";
             this.txtSenhaExcluirAdm.Size = new System.Drawing.Size(243, 22);
-            this.txtSenhaExcluirAdm.TabIndex = 16;
+            this.txtSenhaExcluirAdm.TabIndex = 3;
             this.txtSenhaExcluirAdm.TextChanged += new System.EventHandler(this.txtSenhaExcluirAdm_TextChanged);
             // 
             // txtEmailExcluirAdm
@@ -85,7 +85,7 @@
             this.txtEmailExcluirAdm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmailExcluirAdm.Name = "txtEmailExcluirAdm";
             this.txtEmailExcluirAdm.Size = new System.Drawing.Size(247, 22);
-            this.txtEmailExcluirAdm.TabIndex = 15;
+            this.txtEmailExcluirAdm.TabIndex = 2;
             this.txtEmailExcluirAdm.TextChanged += new System.EventHandler(this.txtEmailExcluirAdm_TextChanged);
             // 
             // pictureBox1
@@ -109,7 +109,7 @@
             this.Controls.Add(this.txtSenhaExcluirAdm);
             this.Controls.Add(this.txtEmailExcluirAdm);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormExcluirAtualizarUsuarioAdm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormExcluirAtualizarUsuarioAdm";

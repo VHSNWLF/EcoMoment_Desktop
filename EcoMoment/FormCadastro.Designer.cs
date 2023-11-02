@@ -43,7 +43,7 @@
             this.txtEmailCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmailCadastrar.Name = "txtEmailCadastrar";
             this.txtEmailCadastrar.Size = new System.Drawing.Size(308, 22);
-            this.txtEmailCadastrar.TabIndex = 13;
+            this.txtEmailCadastrar.TabIndex = 1;
             // 
             // txtSenhaCadastrar
             // 
@@ -51,7 +51,7 @@
             this.txtSenhaCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSenhaCadastrar.Name = "txtSenhaCadastrar";
             this.txtSenhaCadastrar.Size = new System.Drawing.Size(308, 22);
-            this.txtSenhaCadastrar.TabIndex = 12;
+            this.txtSenhaCadastrar.TabIndex = 2;
             // 
             // txtSenha2Cadastrar
             // 
@@ -59,7 +59,7 @@
             this.txtSenha2Cadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSenha2Cadastrar.Name = "txtSenha2Cadastrar";
             this.txtSenha2Cadastrar.Size = new System.Drawing.Size(308, 22);
-            this.txtSenha2Cadastrar.TabIndex = 11;
+            this.txtSenha2Cadastrar.TabIndex = 3;
             // 
             // txtNomeCadastrar
             // 
@@ -67,7 +67,7 @@
             this.txtNomeCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNomeCadastrar.Name = "txtNomeCadastrar";
             this.txtNomeCadastrar.Size = new System.Drawing.Size(308, 22);
-            this.txtNomeCadastrar.TabIndex = 10;
+            this.txtNomeCadastrar.TabIndex = 0;
             // 
             // btnCadastrar
             // 
@@ -78,7 +78,7 @@
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(278, 44);
-            this.btnCadastrar.TabIndex = 9;
+            this.btnCadastrar.TabIndex = 4;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
@@ -104,7 +104,7 @@
             this.Controls.Add(this.txtNomeCadastrar);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormCadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCadastro";

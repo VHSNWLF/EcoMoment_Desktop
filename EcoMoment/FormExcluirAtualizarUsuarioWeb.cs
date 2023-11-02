@@ -35,6 +35,7 @@ namespace EcoMoment
                 this.Text = "Atualizar usuário Web";
                 btnExcluirWeb.Text = "Atualizar";
                 this.Text = "Atualizar Usuário Web";
+                pictureBox1.Image = Resources.Atualizar_Web1;
                 op = 1;
             }
             else

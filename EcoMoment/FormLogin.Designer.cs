@@ -45,7 +45,7 @@
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(278, 44);
-            this.btnCadastrar.TabIndex = 5;
+            this.btnCadastrar.TabIndex = 4;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
@@ -59,7 +59,7 @@
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(278, 44);
-            this.btnLogin.TabIndex = 4;
+            this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Entrar";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -71,7 +71,7 @@
             this.txtSenhaEntrar.Name = "txtSenhaEntrar";
             this.txtSenhaEntrar.PasswordChar = '*';
             this.txtSenhaEntrar.Size = new System.Drawing.Size(318, 22);
-            this.txtSenhaEntrar.TabIndex = 3;
+            this.txtSenhaEntrar.TabIndex = 1;
             this.txtSenhaEntrar.Text = "batata";
             // 
             // txtEmailEntrar

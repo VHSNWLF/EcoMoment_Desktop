@@ -65,5 +65,10 @@ namespace EcoMoment
             FormConsultarUsuarioWeb fc = new FormConsultarUsuarioWeb();
             fc.Show();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
