@@ -139,9 +139,6 @@
   <data name="Consultar usuários pelo nome" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Consultar usuários pelo nome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Consultar por email" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Consultar por email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Padrão de consultar todos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Padrão de consultar todos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -159,5 +156,11 @@
   </data>
   <data name="Atualizar Web1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Atualizar Web1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Consultar por email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Consultar por email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atualizar Web" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Atualizar Web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

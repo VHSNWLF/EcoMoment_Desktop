@@ -263,5 +263,8 @@
   <ItemGroup>
     <None Include="Resources\Atualizar Web1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atualizar Web.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

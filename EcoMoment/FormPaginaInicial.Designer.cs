@@ -55,7 +55,7 @@
             this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(228, 36);
-            this.btnLogin.TabIndex = 5;
+            this.btnLogin.TabIndex = 0;
             this.btnLogin.Text = "Entrar";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -67,7 +67,7 @@
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
-            this.menuStrip1.TabIndex = 4;
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // menuToolStripMenuItem
