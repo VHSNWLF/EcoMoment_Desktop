@@ -30,6 +30,17 @@
         {
             this.btnLogin = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuárosAdmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.excluirUsuárioADMToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.atualizarUsuarioADMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuáriosWebToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excluirUsuárioWebToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.atualizarUsuárioWebToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarDadosDeUsuáriosWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuáriosADMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.excluirUsuárioADMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,12 +74,99 @@
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menuToolStripMenuItem1
+            // 
+            this.menuToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.usuárosAdmToolStripMenuItem,
+            this.usuáriosWebToolStripMenuItem1,
+            this.toolStripMenuItem2,
+            this.sairToolStripMenuItem1});
+            this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(60, 24);
+            this.menuToolStripMenuItem1.Text = "Menu";
+            // 
+            // usuárosAdmToolStripMenuItem
+            // 
+            this.usuárosAdmToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.excluirUsuárioADMToolStripMenuItem1,
+            this.atualizarUsuarioADMToolStripMenuItem,
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1});
+            this.usuárosAdmToolStripMenuItem.Name = "usuárosAdmToolStripMenuItem";
+            this.usuárosAdmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.usuárosAdmToolStripMenuItem.Text = "Usuáros [Adm]";
+            // 
+            // excluirUsuárioADMToolStripMenuItem1
+            // 
+            this.excluirUsuárioADMToolStripMenuItem1.Name = "excluirUsuárioADMToolStripMenuItem1";
+            this.excluirUsuárioADMToolStripMenuItem1.Size = new System.Drawing.Size(316, 26);
+            this.excluirUsuárioADMToolStripMenuItem1.Text = "Excluir usuário ADM";
+            this.excluirUsuárioADMToolStripMenuItem1.Click += new System.EventHandler(this.excluirUsuárioADMToolStripMenuItem1_Click);
+            // 
+            // atualizarUsuarioADMToolStripMenuItem
+            // 
+            this.atualizarUsuarioADMToolStripMenuItem.Name = "atualizarUsuarioADMToolStripMenuItem";
+            this.atualizarUsuarioADMToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
+            this.atualizarUsuarioADMToolStripMenuItem.Text = "Atualizar dados ADM";
+            this.atualizarUsuarioADMToolStripMenuItem.Click += new System.EventHandler(this.atualizarUsuarioADMToolStripMenuItem_Click);
+            // 
+            // consultarDadosDeUsuáriosADMToolStripMenuItem1
+            // 
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Name = "consultarDadosDeUsuáriosADMToolStripMenuItem1";
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Size = new System.Drawing.Size(316, 26);
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Text = "Consultar dados de usuários ADM";
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Click += new System.EventHandler(this.consultarDadosDeUsuáriosADMToolStripMenuItem1_Click);
+            // 
+            // usuáriosWebToolStripMenuItem1
+            // 
+            this.usuáriosWebToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.excluirUsuárioWebToolStripMenuItem1,
+            this.atualizarUsuárioWebToolStripMenuItem1,
+            this.consultarDadosDeUsuáriosWebToolStripMenuItem});
+            this.usuáriosWebToolStripMenuItem1.Name = "usuáriosWebToolStripMenuItem1";
+            this.usuáriosWebToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.usuáriosWebToolStripMenuItem1.Text = "Usuários [Web]";
+            // 
+            // excluirUsuárioWebToolStripMenuItem1
+            // 
+            this.excluirUsuárioWebToolStripMenuItem1.Name = "excluirUsuárioWebToolStripMenuItem1";
+            this.excluirUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(312, 26);
+            this.excluirUsuárioWebToolStripMenuItem1.Text = "Excluir usuário Web";
+            this.excluirUsuárioWebToolStripMenuItem1.Click += new System.EventHandler(this.excluirUsuárioWebToolStripMenuItem1_Click);
+            // 
+            // atualizarUsuárioWebToolStripMenuItem1
+            // 
+            this.atualizarUsuárioWebToolStripMenuItem1.Name = "atualizarUsuárioWebToolStripMenuItem1";
+            this.atualizarUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(312, 26);
+            this.atualizarUsuárioWebToolStripMenuItem1.Text = "Atualizar usuário Web";
+            this.atualizarUsuárioWebToolStripMenuItem1.Click += new System.EventHandler(this.atualizarUsuárioWebToolStripMenuItem1_Click);
+            // 
+            // consultarDadosDeUsuáriosWebToolStripMenuItem
+            // 
+            this.consultarDadosDeUsuáriosWebToolStripMenuItem.Name = "consultarDadosDeUsuáriosWebToolStripMenuItem";
+            this.consultarDadosDeUsuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(312, 26);
+            this.consultarDadosDeUsuáriosWebToolStripMenuItem.Text = "Consultar dados de usuários Web";
+            this.consultarDadosDeUsuáriosWebToolStripMenuItem.Click += new System.EventHandler(this.consultarDadosDeUsuáriosWebToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(221, 6);
+            // 
+            // sairToolStripMenuItem1
+            // 
+            this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem1.Text = "Sair";
+            this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
             // menuToolStripMenuItem
             // 
@@ -91,21 +189,18 @@
             this.excluirUsuárioADMToolStripMenuItem.Name = "excluirUsuárioADMToolStripMenuItem";
             this.excluirUsuárioADMToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
             this.excluirUsuárioADMToolStripMenuItem.Text = "Excluir usuário ADM";
-            this.excluirUsuárioADMToolStripMenuItem.Click += new System.EventHandler(this.excluirUsuárioADMToolStripMenuItem_Click);
             // 
             // atualizarDadosADMToolStripMenuItem
             // 
             this.atualizarDadosADMToolStripMenuItem.Name = "atualizarDadosADMToolStripMenuItem";
             this.atualizarDadosADMToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
             this.atualizarDadosADMToolStripMenuItem.Text = "Atualizar dados ADM";
-            this.atualizarDadosADMToolStripMenuItem.Click += new System.EventHandler(this.atualizarDadosADMToolStripMenuItem_Click);
             // 
             // consultarDadosDeUsuáriosADMToolStripMenuItem
             // 
             this.consultarDadosDeUsuáriosADMToolStripMenuItem.Name = "consultarDadosDeUsuáriosADMToolStripMenuItem";
             this.consultarDadosDeUsuáriosADMToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
             this.consultarDadosDeUsuáriosADMToolStripMenuItem.Text = "Consultar dados de usuários ADM";
-            this.consultarDadosDeUsuáriosADMToolStripMenuItem.Click += new System.EventHandler(this.consultarDadosDeUsuáriosADMToolStripMenuItem_Click);
             // 
             // usuáriosWebToolStripMenuItem
             // 
@@ -122,21 +217,18 @@
             this.excluirUsuárioWebToolStripMenuItem.Name = "excluirUsuárioWebToolStripMenuItem";
             this.excluirUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(312, 26);
             this.excluirUsuárioWebToolStripMenuItem.Text = "Excluir usuário Web";
-            this.excluirUsuárioWebToolStripMenuItem.Click += new System.EventHandler(this.excluirUsuárioWebToolStripMenuItem_Click);
             // 
             // atualizarUsuárioWebToolStripMenuItem
             // 
             this.atualizarUsuárioWebToolStripMenuItem.Name = "atualizarUsuárioWebToolStripMenuItem";
             this.atualizarUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(312, 26);
             this.atualizarUsuárioWebToolStripMenuItem.Text = "Atualizar usuário Web";
-            this.atualizarUsuárioWebToolStripMenuItem.Click += new System.EventHandler(this.atualizarUsuárioWebToolStripMenuItem_Click);
             // 
             // consultarDadosDeUisuáriosWebToolStripMenuItem
             // 
             this.consultarDadosDeUisuáriosWebToolStripMenuItem.Name = "consultarDadosDeUisuáriosWebToolStripMenuItem";
             this.consultarDadosDeUisuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(312, 26);
             this.consultarDadosDeUisuáriosWebToolStripMenuItem.Text = "Consultar dados de usuários Web";
-            this.consultarDadosDeUisuáriosWebToolStripMenuItem.Click += new System.EventHandler(this.consultarDadosDeUisuáriosWebToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -148,7 +240,6 @@
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -197,5 +288,16 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem usuárosAdmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem excluirUsuárioADMToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem usuáriosWebToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem atualizarUsuarioADMToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarDadosDeUsuáriosADMToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem excluirUsuárioWebToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem atualizarUsuárioWebToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem consultarDadosDeUsuáriosWebToolStripMenuItem;
     }
 }

@@ -29,46 +29,45 @@ namespace EcoMoment
             fl.Show();
         }
 
-        private void excluirUsuárioADMToolStripMenuItem_Click(object sender, EventArgs e)
+        private void sairToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void excluirUsuárioADMToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FormExcluirAtualizarUsuarioAdm fe = new FormExcluirAtualizarUsuarioAdm(2);
             fe.Show();
         }
 
-        private void atualizarDadosADMToolStripMenuItem_Click(object sender, EventArgs e)
+        private void atualizarUsuarioADMToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormExcluirAtualizarUsuarioAdm fa = new FormExcluirAtualizarUsuarioAdm(1);
             fa.Show();
         }
 
-        private void consultarDadosDeUsuáriosADMToolStripMenuItem_Click(object sender, EventArgs e)
+        private void consultarDadosDeUsuáriosADMToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FormConsultaAdm fc = new FormConsultaAdm();
             fc.Show();
-
         }
 
-        private void excluirUsuárioWebToolStripMenuItem_Click(object sender, EventArgs e)
+        private void excluirUsuárioWebToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FormExcluirAtualizarUsuarioWeb fe = new FormExcluirAtualizarUsuarioWeb(2);
             fe.Show();
         }
 
-        private void atualizarUsuárioWebToolStripMenuItem_Click(object sender, EventArgs e)
+        private void atualizarUsuárioWebToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FormExcluirAtualizarUsuarioWeb fa = new FormExcluirAtualizarUsuarioWeb(1);
             fa.Show();
         }
 
-        private void consultarDadosDeUisuáriosWebToolStripMenuItem_Click(object sender, EventArgs e)
+        private void consultarDadosDeUsuáriosWebToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormConsultarUsuarioWeb fc = new FormConsultarUsuarioWeb();
             fc.Show();
-        }
-
-        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
