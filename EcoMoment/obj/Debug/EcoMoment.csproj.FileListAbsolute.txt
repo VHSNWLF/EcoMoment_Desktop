@@ -117,3 +117,4 @@ C:\Users\enzop\OneDrive\Área de Trabalho\sla\EcoMoment_Desktop\EcoMoment\obj\De
 C:\Users\enzop\OneDrive\Área de Trabalho\sla\EcoMoment_Desktop\EcoMoment\obj\Debug\EcoMoment.csproj.CopyComplete
 C:\Users\enzop\OneDrive\Área de Trabalho\sla\EcoMoment_Desktop\EcoMoment\obj\Debug\EcoMoment.exe
 C:\Users\enzop\OneDrive\Área de Trabalho\sla\EcoMoment_Desktop\EcoMoment\obj\Debug\EcoMoment.pdb
+C:\Users\enzop\OneDrive\Área de Trabalho\sla\EcoMoment_Desktop\EcoMoment\obj\Debug\EcoMoment.SplashScreen.resources
