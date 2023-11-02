@@ -34,17 +34,19 @@
             this.NomeUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EmailUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SenhaUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(59, 395);
+            this.button1.Location = new System.Drawing.Point(76, 455);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(364, 43);
+            this.button1.Size = new System.Drawing.Size(485, 53);
             this.button1.TabIndex = 8;
             this.button1.Text = "Mostrar";
             this.button1.UseVisualStyleBackColor = false;
@@ -58,10 +60,11 @@
             this.NomeUsuario,
             this.EmailUsuario,
             this.SenhaUsuario});
-            this.dataGridView1.Location = new System.Drawing.Point(24, 129);
+            this.dataGridView1.Location = new System.Drawing.Point(36, 108);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(434, 259);
+            this.dataGridView1.Size = new System.Drawing.Size(573, 327);
             this.dataGridView1.TabIndex = 7;
             // 
             // idUsuario
@@ -92,28 +95,31 @@
             this.SenhaUsuario.Name = "SenhaUsuario";
             this.SenhaUsuario.Width = 125;
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(140, 113);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "CONSULTAR TODOS OS USUARIOS";
+            this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Padrão_de_consultar_todos;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(644, 564);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // FormConsultaTodos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(487, 450);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(641, 562);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormConsultaTodos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormConsultaTodos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -125,6 +131,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NomeUsuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn EmailUsuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn SenhaUsuario;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

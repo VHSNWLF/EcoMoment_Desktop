@@ -194,6 +194,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -219,6 +220,48 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tela login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tela cadastro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Página inicial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu de busca - Adm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar por email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu de busca - Web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Padrão de consultar todos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excluir Adm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atualizar Adm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Atualizar Web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excluir Web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar usuários por ID.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar usuários Adm por ID.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar usuários pelo nome.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

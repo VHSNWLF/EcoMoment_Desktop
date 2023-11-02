@@ -35,6 +35,7 @@ namespace EcoMoment
                 this.Text = "Atualizar usuário ADM";
                 btnExcluirAdm.Text = "Atualizar";
                 this.Text = "Atualizar Usuário ADM";
+                pictureBox1.Image = Resources.Atualizar_Adm;
                 op = 1;
             }
             else
@@ -140,6 +141,21 @@ namespace EcoMoment
             {
                 MessageBox.Show("Erro ao localizar o Usuário");
             }
+        }
+
+        private void txtNomeExcluirAdm_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEmailExcluirAdm_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSenhaExcluirAdm_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

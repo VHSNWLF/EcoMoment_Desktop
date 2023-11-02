@@ -33,107 +33,82 @@
             this.txtSenha2Cadastrar = new System.Windows.Forms.TextBox();
             this.txtNomeCadastrar = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtEmailCadastrar
             // 
-            this.txtEmailCadastrar.Location = new System.Drawing.Point(11, 81);
-            this.txtEmailCadastrar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtEmailCadastrar.Location = new System.Drawing.Point(46, 187);
+            this.txtEmailCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmailCadastrar.Name = "txtEmailCadastrar";
-            this.txtEmailCadastrar.Size = new System.Drawing.Size(232, 20);
+            this.txtEmailCadastrar.Size = new System.Drawing.Size(308, 22);
             this.txtEmailCadastrar.TabIndex = 13;
             // 
             // txtSenhaCadastrar
             // 
-            this.txtSenhaCadastrar.Location = new System.Drawing.Point(11, 135);
-            this.txtSenhaCadastrar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSenhaCadastrar.Location = new System.Drawing.Point(46, 253);
+            this.txtSenhaCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSenhaCadastrar.Name = "txtSenhaCadastrar";
-            this.txtSenhaCadastrar.Size = new System.Drawing.Size(232, 20);
+            this.txtSenhaCadastrar.Size = new System.Drawing.Size(308, 22);
             this.txtSenhaCadastrar.TabIndex = 12;
             // 
             // txtSenha2Cadastrar
             // 
-            this.txtSenha2Cadastrar.Location = new System.Drawing.Point(11, 191);
-            this.txtSenha2Cadastrar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSenha2Cadastrar.Location = new System.Drawing.Point(46, 323);
+            this.txtSenha2Cadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSenha2Cadastrar.Name = "txtSenha2Cadastrar";
-            this.txtSenha2Cadastrar.Size = new System.Drawing.Size(232, 20);
+            this.txtSenha2Cadastrar.Size = new System.Drawing.Size(308, 22);
             this.txtSenha2Cadastrar.TabIndex = 11;
             // 
             // txtNomeCadastrar
             // 
-            this.txtNomeCadastrar.Location = new System.Drawing.Point(11, 27);
-            this.txtNomeCadastrar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNomeCadastrar.Location = new System.Drawing.Point(46, 124);
+            this.txtNomeCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNomeCadastrar.Name = "txtNomeCadastrar";
-            this.txtNomeCadastrar.Size = new System.Drawing.Size(232, 20);
+            this.txtNomeCadastrar.Size = new System.Drawing.Size(308, 22);
             this.txtNomeCadastrar.TabIndex = 10;
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(34, 403);
-            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.Location = new System.Drawing.Point(77, 597);
+            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(208, 36);
+            this.btnCadastrar.Size = new System.Drawing.Size(278, 44);
             this.btnCadastrar.TabIndex = 9;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 13);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Nome de usuario";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 66);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 13);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Email";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 120);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Senha";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 176);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 13);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Confirme sua senha";
+            this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Tela_cadastro;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(442, 683);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
             // 
             // FormCadastro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(270, 450);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(440, 681);
             this.Controls.Add(this.txtEmailCadastrar);
             this.Controls.Add(this.txtSenhaCadastrar);
             this.Controls.Add(this.txtSenha2Cadastrar);
             this.Controls.Add(this.txtNomeCadastrar);
             this.Controls.Add(this.btnCadastrar);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormCadastro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCadastro";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,9 +121,6 @@
         private System.Windows.Forms.TextBox txtSenha2Cadastrar;
         private System.Windows.Forms.TextBox txtNomeCadastrar;
         private System.Windows.Forms.Button btnCadastrar;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

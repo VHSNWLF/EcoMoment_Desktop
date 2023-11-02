@@ -15,6 +15,11 @@ namespace EcoMoment
         public FormPaginaInicial()
         {
             InitializeComponent();
+
+            if (DAO_Conexao.getConexao("143.106.241.3", "cl202247", "cl202247", "ENVI2224*"))
+                Console.WriteLine("\nConectado\n");
+            else
+                Console.WriteLine("Erro de Conexão");
         }
 
 
