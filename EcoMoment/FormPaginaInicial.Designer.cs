@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnLogin = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.usuárosAdmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,20 +55,6 @@
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(288, 316);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(228, 36);
-            this.btnLogin.TabIndex = 0;
-            this.btnLogin.Text = "Entrar";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // menuStrip1
             // 
@@ -101,7 +86,7 @@
             this.atualizarUsuarioADMToolStripMenuItem,
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1});
             this.usuárosAdmToolStripMenuItem.Name = "usuárosAdmToolStripMenuItem";
-            this.usuárosAdmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.usuárosAdmToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
             this.usuárosAdmToolStripMenuItem.Text = "Usuáros [Adm]";
             // 
             // excluirUsuárioADMToolStripMenuItem1
@@ -132,7 +117,7 @@
             this.atualizarUsuárioWebToolStripMenuItem1,
             this.consultarDadosDeUsuáriosWebToolStripMenuItem});
             this.usuáriosWebToolStripMenuItem1.Name = "usuáriosWebToolStripMenuItem1";
-            this.usuáriosWebToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.usuáriosWebToolStripMenuItem1.Size = new System.Drawing.Size(192, 26);
             this.usuáriosWebToolStripMenuItem1.Text = "Usuários [Web]";
             // 
             // excluirUsuárioWebToolStripMenuItem1
@@ -159,12 +144,12 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(221, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(189, 6);
             // 
             // sairToolStripMenuItem1
             // 
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(192, 26);
             this.sairToolStripMenuItem1.Text = "Sair";
             this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
@@ -243,7 +228,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Página_inicial;
+            this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Página_de_stand_by;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 453);
@@ -256,7 +241,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pictureBox1);
             this.IsMdiContainer = true;
@@ -273,8 +257,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuáriosADMToolStripMenuItem;

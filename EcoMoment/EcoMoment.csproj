@@ -143,6 +143,12 @@
     <Compile Include="FormPaginaInicial.Designer.cs">
       <DependentUpon>FormPaginaInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="PaginaInicial2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaInicial2.Designer.cs">
+      <DependentUpon>PaginaInicial2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreen.cs">
@@ -191,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPaginaInicial.resx">
       <DependentUpon>FormPaginaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaInicial2.resx">
+      <DependentUpon>PaginaInicial2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -277,6 +286,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SplashScreen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Página de stand by.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

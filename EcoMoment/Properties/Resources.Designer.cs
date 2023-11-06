@@ -183,6 +183,16 @@ namespace EcoMoment.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Página_de_stand_by {
+            get {
+                object obj = ResourceManager.GetObject("Página de stand by", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Página_inicial {
             get {
                 object obj = ResourceManager.GetObject("Página inicial", resourceCulture);

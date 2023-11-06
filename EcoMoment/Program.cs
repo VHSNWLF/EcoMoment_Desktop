@@ -16,7 +16,7 @@ namespace EcoMoment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPaginaInicial());
+            Application.Run(new PaginaInicial2(0));
         }
     }
 }
