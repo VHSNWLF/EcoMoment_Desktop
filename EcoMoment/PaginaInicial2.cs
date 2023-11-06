@@ -44,6 +44,7 @@ namespace EcoMoment
         {
             FormLogin fl = new FormLogin();
             fl.Show();
+            this.Hide();
         }
     }
 }

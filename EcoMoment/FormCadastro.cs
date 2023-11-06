@@ -56,5 +56,12 @@ namespace EcoMoment
                 MessageBox.Show("Nenhum campo pode estar vazio. Preencha todos e tente novamente.");
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            FormLogin f = new FormLogin();
+            f.Show();
+            this.Close();
+        }
     }
 }

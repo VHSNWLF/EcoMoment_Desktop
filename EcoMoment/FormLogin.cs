@@ -29,11 +29,12 @@ namespace EcoMoment
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-                FormCadastro fc = new FormCadastro();
-                fc.Show();
-                this.Close();
-                txtEmailEntrar.Text = "";
-                txtSenhaEntrar.Text = "";
+            FormCadastro fc = new FormCadastro();
+            fc.Show();
+            op = 2;
+            this.Close();
+            txtEmailEntrar.Text = "";
+            txtSenhaEntrar.Text = "";
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

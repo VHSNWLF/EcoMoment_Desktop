@@ -39,6 +39,7 @@
             // 
             // comboBoxExcluirAdm
             // 
+            this.comboBoxExcluirAdm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBoxExcluirAdm.FormattingEnabled = true;
             this.comboBoxExcluirAdm.Location = new System.Drawing.Point(81, 141);
             this.comboBoxExcluirAdm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -59,6 +60,7 @@
             // btnExcluirAdm
             // 
             this.btnExcluirAdm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.btnExcluirAdm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExcluirAdm.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExcluirAdm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluirAdm.Location = new System.Drawing.Point(81, 475);

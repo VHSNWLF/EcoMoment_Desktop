@@ -39,6 +39,7 @@
             // 
             // comboBoxExcluirWeb
             // 
+            this.comboBoxExcluirWeb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBoxExcluirWeb.FormattingEnabled = true;
             this.comboBoxExcluirWeb.Location = new System.Drawing.Point(77, 147);
             this.comboBoxExcluirWeb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -58,6 +59,7 @@
             // btnExcluirWeb
             // 
             this.btnExcluirWeb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
+            this.btnExcluirWeb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExcluirWeb.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExcluirWeb.Location = new System.Drawing.Point(84, 474);
             this.btnExcluirWeb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -105,7 +107,7 @@
             this.Controls.Add(this.txtSenhaExcluirWeb);
             this.Controls.Add(this.txtEmailExcluirWeb);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormExcluirAtualizarUsuarioWeb";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormExcluirAtualizarUsuarioWeb";
