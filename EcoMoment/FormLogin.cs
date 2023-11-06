@@ -13,6 +13,8 @@ namespace EcoMoment
 {
     public partial class FormLogin : Form
     {
+        int op = 0;
+
         public FormLogin()
         {
             InitializeComponent();
@@ -41,6 +43,7 @@ namespace EcoMoment
                 if (DAO_Conexao.VeriLogin(txtEmailEntrar.Text, txtSenhaEntrar.Text) == 1)
                 {
                     MessageBox.Show("Login realizado com sucesso!");
+                    op= 1;
                     this.Close();
                     FormPaginaInicial p = new FormPaginaInicial();
                     p.Show();
@@ -55,6 +58,16 @@ namespace EcoMoment
             {
                 MessageBox.Show("Nenhum campo pode estar vazio. Preencha todos e tente novamente.");
             }
+        }
+
+        private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (op == 0)
+            {
+                PaginaInicial2 p = new PaginaInicial2(1);
+                p.Show();
+            }
+            
         }
     }
 }
