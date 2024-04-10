@@ -40,7 +40,7 @@ namespace EcoMoment
                     MySqlDataReader reader = uWeb.consultarUsuarioWeb(int.Parse(comboBox1.SelectedItem.ToString()));
                     while (reader.Read())
                     {
-                        dataGridView1.Rows.Add(reader["idUsuarioWeb"].ToString(), reader["NomeWeb"].ToString(), reader["EmailWeb"].ToString(), reader["SenhaWeb"].ToString());
+                        dataGridView1.Rows.Add(reader["idUsuarioWeb"].ToString(), reader["NomeWeb"].ToString(), reader["EmailWeb"].ToString(), reader["SenhaWeb"].ToString(), reader["qtdeSeguidores"].ToString(), reader["qtdeSeguindo"].ToString(), reader["qtdeCurtidas"].ToString(), reader["qtdePostagens"].ToString(), reader["Reputacao"].ToString(), reader["Biografia"].ToString());
                     }
                     DAO_Conexao.con.Close();
                 }

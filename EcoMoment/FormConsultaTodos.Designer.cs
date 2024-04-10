@@ -30,11 +30,17 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.idUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NomeUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EmailUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SenhaUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.qtdeSeguidores = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qtdeSeguindo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qtdeCurtidas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qtdePostagens = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Reputacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Biografia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -44,10 +50,9 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(76, 455);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(57, 370);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(485, 53);
+            this.button1.Size = new System.Drawing.Size(364, 43);
             this.button1.TabIndex = 0;
             this.button1.Text = "Mostrar";
             this.button1.UseVisualStyleBackColor = false;
@@ -60,13 +65,29 @@
             this.idUsuario,
             this.NomeUsuario,
             this.EmailUsuario,
-            this.SenhaUsuario});
-            this.dataGridView1.Location = new System.Drawing.Point(36, 108);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.SenhaUsuario,
+            this.qtdeSeguidores,
+            this.qtdeSeguindo,
+            this.qtdeCurtidas,
+            this.qtdePostagens,
+            this.Reputacao,
+            this.Biografia});
+            this.dataGridView1.Location = new System.Drawing.Point(27, 88);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(573, 327);
+            this.dataGridView1.Size = new System.Drawing.Size(430, 266);
             this.dataGridView1.TabIndex = 7;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Padrão_de_consultar_todos;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(483, 458);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // idUsuario
             // 
@@ -96,25 +117,50 @@
             this.SenhaUsuario.Name = "SenhaUsuario";
             this.SenhaUsuario.Width = 125;
             // 
-            // pictureBox1
+            // qtdeSeguidores
             // 
-            this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Padrão_de_consultar_todos;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(644, 564);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.qtdeSeguidores.HeaderText = "Seguidores";
+            this.qtdeSeguidores.Name = "qtdeSeguidores";
+            this.qtdeSeguidores.ReadOnly = true;
+            // 
+            // qtdeSeguindo
+            // 
+            this.qtdeSeguindo.HeaderText = "Seguindo";
+            this.qtdeSeguindo.Name = "qtdeSeguindo";
+            this.qtdeSeguindo.ReadOnly = true;
+            // 
+            // qtdeCurtidas
+            // 
+            this.qtdeCurtidas.HeaderText = "Curtidas";
+            this.qtdeCurtidas.Name = "qtdeCurtidas";
+            this.qtdeCurtidas.ReadOnly = true;
+            // 
+            // qtdePostagens
+            // 
+            this.qtdePostagens.HeaderText = "Postagens";
+            this.qtdePostagens.Name = "qtdePostagens";
+            this.qtdePostagens.ReadOnly = true;
+            // 
+            // Reputacao
+            // 
+            this.Reputacao.HeaderText = "Reputação";
+            this.Reputacao.Name = "Reputacao";
+            this.Reputacao.ReadOnly = true;
+            // 
+            // Biografia
+            // 
+            this.Biografia.HeaderText = "Biografia";
+            this.Biografia.Name = "Biografia";
+            this.Biografia.ReadOnly = true;
             // 
             // FormConsultaTodos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 562);
+            this.ClientSize = new System.Drawing.Size(481, 457);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormConsultaTodos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormConsultaTodos";
@@ -128,10 +174,16 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn idUsuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn NomeUsuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn EmailUsuario;
         private System.Windows.Forms.DataGridViewTextBoxColumn SenhaUsuario;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qtdeSeguidores;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qtdeSeguindo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qtdeCurtidas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qtdePostagens;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Reputacao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Biografia;
     }
 }
