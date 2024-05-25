@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -58,6 +59,7 @@ namespace EcoMoment
             return resultado;
         }
 
+
         public MySqlDataReader consultarUsuarioWebEmail(string email)
         {
             MySqlDataReader resultado = null;
@@ -90,7 +92,65 @@ namespace EcoMoment
             return resultado;
         }
 
+        public bool verificaAtivo(int id)
+        {
+            bool existe = false;
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand verifica = new MySqlCommand("select * from EcoMomentBD_UsuarioWeb where ativo = 1", DAO_Conexao.con);
+                MySqlDataReader reader = verifica.ExecuteReader();
+                while (reader.Read()) {
+                    if (int.Parse(reader["idUsuarioWeb"].ToString()) == id)
+                    {
+                        Console.WriteLine("existe");
+                        return existe = true;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            return existe;
+        }
+
+
         public MySqlDataReader consultarTodosUsuariosWeb()
+        {
+            MySqlDataReader resultado = null;
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand comando = new MySqlCommand("select * from EcoMomentBD_UsuarioWeb where ativo = 1", DAO_Conexao.con);
+                resultado = comando.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                Console.WriteLine("-----------ERRO--------------");
+            }
+            return resultado;
+        }
+
+        public MySqlDataReader consultarUsuariosWebExcluidos()
+        {
+            MySqlDataReader resultado = null;
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand comando = new MySqlCommand("select * from EcoMomentBD_UsuarioWeb where ativo = 0", DAO_Conexao.con);
+                resultado = comando.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                Console.WriteLine("-----------ERRO--------------");
+            }
+            return resultado;
+        }
+
+        public MySqlDataReader consultarTodosUsuariosWeb1()
         {
             MySqlDataReader resultado = null;
             try
@@ -114,7 +174,7 @@ namespace EcoMoment
             try
             {
                 DAO_Conexao.con.Open();
-                MySqlCommand sql = new MySqlCommand("delete from EcoMomentBD_UsuarioWeb where idUsuarioWeb = " + id + "", DAO_Conexao.con);
+                MySqlCommand sql = new MySqlCommand("update EcoMomentBD_UsuarioWeb set ativo = 0 where idUsuarioWeb = " + id + "", DAO_Conexao.con);
                 sql.ExecuteNonQuery();
                 result = true;
             }
@@ -137,6 +197,28 @@ namespace EcoMoment
             {
                 DAO_Conexao.con.Open();
                 MySqlCommand sql = new MySqlCommand("update EcoMomentBD_UsuarioWeb set NomeWeb = '" + nome + "', EmailWeb =  '" + email + "', SenhaWeb = '" + senha + "' where idUsuarioWeb = " + id + "", DAO_Conexao.con);
+                sql.ExecuteNonQuery();
+                result = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                DAO_Conexao.con.Close();
+            }
+            return result;
+        }
+
+        public bool reativarUsuario(int id)
+        {
+            bool result = false;
+
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand sql = new MySqlCommand("update EcoMomentBD_UsuarioWeb set ativo = 1 where idUsuarioWeb = " + id + "", DAO_Conexao.con);
                 sql.ExecuteNonQuery();
                 result = true;
             }

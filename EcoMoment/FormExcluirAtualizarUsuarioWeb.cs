@@ -23,15 +23,16 @@ namespace EcoMoment
 
             UsuarioWeb uWeb = new UsuarioWeb();
             //Abriu conexao
-            MySqlDataReader reader = uWeb.consultarTodosUsuariosWeb();
-            while (reader.Read())
-            {
-                comboBoxExcluirWeb.Items.Add(reader["idUsuarioWeb"]);
-            }
-            DAO_Conexao.con.Close();//Fechou conexao
+            
 
             if (p == 1)
             {
+                MySqlDataReader reader = uWeb.consultarTodosUsuariosWeb1();
+                while (reader.Read())
+                {
+                    comboBoxExcluirWeb.Items.Add(reader["idUsuarioWeb"]);
+                }
+                DAO_Conexao.con.Close();//Fechou conexao
                 this.Text = "Atualizar usuário Web";
                 btnExcluirWeb.Text = "Atualizar";
                 this.Text = "Atualizar Usuário Web";
@@ -40,6 +41,13 @@ namespace EcoMoment
             }
             else
             {
+            MySqlDataReader reader = uWeb.consultarTodosUsuariosWeb();
+            while (reader.Read())
+            {
+                comboBoxExcluirWeb.Items.Add(reader["idUsuarioWeb"]);
+            }
+            DAO_Conexao.con.Close();//Fechou conexao
+                btnReativar.Visible = false;
                 btnExcluirWeb.Text = "Excluir";
                 txtSenhaExcluirWeb.Visible = false;
                 op = 2;
@@ -98,7 +106,21 @@ namespace EcoMoment
 
         private void comboBoxExcluirWeb_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (op == 2)
+            if (op == 1)
+            {
+                UsuarioWeb uWeb = new UsuarioWeb();
+                if (uWeb.verificaAtivo(int.Parse(comboBoxExcluirWeb.SelectedItem.ToString())))
+                {
+                    btnReativar.Enabled = false;
+                    DAO_Conexao.con.Close();
+                }
+                else
+                {
+                    btnReativar.Enabled = true;
+                    DAO_Conexao.con.Close();
+                }
+            }
+            else if (op == 2)
             {
                 txtEmailExcluirWeb.Enabled = false;
                 txtNomeExcluirWeb.Enabled = false;
@@ -107,19 +129,41 @@ namespace EcoMoment
             try
             {
                 UsuarioWeb uWeb = new UsuarioWeb();
-                //Abriu conexao
-                MySqlDataReader r = uWeb.consultarUsuarioWeb(int.Parse(comboBoxExcluirWeb.SelectedItem.ToString()));
-                while (r.Read())
+                if (op == 2)
                 {
-                    txtNomeExcluirWeb.Text = r["NomeWeb"].ToString();
-                    txtEmailExcluirWeb.Text = r["EmailWeb"].ToString();
-                    txtSenhaExcluirWeb.Text = r["SenhaWeb"].ToString();
+                    MySqlDataReader r = uWeb.consultarUsuarioWeb(int.Parse(comboBoxExcluirWeb.SelectedItem.ToString()));
+                    while (r.Read())
+                    {
+                        txtNomeExcluirWeb.Text = r["NomeWeb"].ToString();
+                        txtEmailExcluirWeb.Text = r["EmailWeb"].ToString();
+                        txtSenhaExcluirWeb.Text = r["SenhaWeb"].ToString();
+                    }
+                    DAO_Conexao.con.Close();//Fechou conexao
                 }
-                DAO_Conexao.con.Close();//Fechou conexao
+                else if (op == 1) {
+                    MySqlDataReader r = uWeb.consultarUsuarioWeb(int.Parse(comboBoxExcluirWeb.SelectedItem.ToString()));
+                    while (r.Read())
+                    {
+                        txtNomeExcluirWeb.Text = r["NomeWeb"].ToString();
+                        txtEmailExcluirWeb.Text = r["EmailWeb"].ToString();
+                        txtSenhaExcluirWeb.Text = r["SenhaWeb"].ToString();
+                    }
+                    DAO_Conexao.con.Close();//Fechou conexao
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Erro ao localizar o Usuário");
+            }
+
+        }
+
+        private void btnReativar_Click(object sender, EventArgs e)
+        {
+            UsuarioWeb uWeb = new UsuarioWeb();
+            if (uWeb.reativarUsuario(int.Parse(comboBoxExcluirWeb.SelectedItem.ToString())))
+            {
+                MessageBox.Show("Usuário reativado com sucesso!");
             }
         }
     }

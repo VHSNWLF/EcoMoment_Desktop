@@ -119,6 +119,12 @@
     <Compile Include="FormConsultaTodosAdm.Designer.cs">
       <DependentUpon>FormConsultaTodosAdm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormConsultaUsuarioExcluido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultaUsuarioExcluido.Designer.cs">
+      <DependentUpon>FormConsultaUsuarioExcluido.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormExcluirAtualizarUsuarioAdm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormConsultaTodosAdm.resx">
       <DependentUpon>FormConsultaTodosAdm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultaUsuarioExcluido.resx">
+      <DependentUpon>FormConsultaUsuarioExcluido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormExcluirAtualizarUsuarioAdm.resx">
       <DependentUpon>FormExcluirAtualizarUsuarioAdm.cs</DependentUpon>

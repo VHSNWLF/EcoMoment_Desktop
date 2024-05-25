@@ -41,5 +41,11 @@ namespace EcoMoment
             FormConsultaTodos f1 = new FormConsultaTodos();
             f1.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FormConsultaUsuarioExcluido f = new FormConsultaUsuarioExcluido();
+            f.Show();
+        }
     }
 }
