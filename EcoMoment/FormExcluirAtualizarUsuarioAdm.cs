@@ -77,8 +77,6 @@ namespace EcoMoment
                 }
                 else if (op == 1)
                 {
-                    MessageBox.Show("Erro de execução.");
-
                     try
                     {
                         UsuarioAdm uadm = new UsuarioAdm();
@@ -98,7 +96,6 @@ namespace EcoMoment
                     catch (Exception ex)
                     {
                         MessageBox.Show(ex.Message);
-                        MessageBox.Show("Erro de execução.");
                     }
                 }
             }

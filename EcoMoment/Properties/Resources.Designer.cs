@@ -123,6 +123,16 @@ namespace EcoMoment.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Consultar_usuários_excluídos1 {
+            get {
+                object obj = ResourceManager.GetObject("Consultar usuários excluídos1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Consultar_usuários_pelo_nome {
             get {
                 object obj = ResourceManager.GetObject("Consultar usuários pelo nome", resourceCulture);

@@ -86,6 +86,7 @@ namespace EcoMoment
                 DAO_Conexao.con.Open();
                 MySqlCommand sql = new MySqlCommand("delete from EcoMomentBD_UsuarioAdm where idUsuarioAdm = " + id, DAO_Conexao.con);
                 sql.ExecuteNonQuery();
+                result = true;
             }
             catch (Exception ex)
             {
@@ -105,7 +106,9 @@ namespace EcoMoment
             try
             {
                 DAO_Conexao.con.Open();
-                MySqlCommand sql = new MySqlCommand("update from EcoMomentBD_UsuarioAdm set (NomeAdm, EmailAdm, SenhaAdm) values  (" + nome + ", '" + email + "', '" + senha + "') where idUsuarioAdm = " + id, DAO_Conexao.con);
+                MySqlCommand sql = new MySqlCommand("update EcoMomentBD_UsuarioAdm set NomeAdm = '" + nome + "', EmailAdm =  '" + email + "', SenhaAdm = '" + senha + "' where idUsuarioAdm = " + id + "", DAO_Conexao.con);
+                sql.ExecuteNonQuery();
+                result = true;
             }
             catch (Exception ex)
             {

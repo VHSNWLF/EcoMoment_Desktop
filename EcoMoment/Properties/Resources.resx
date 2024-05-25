@@ -139,6 +139,9 @@
   <data name="Consultar usuários por ID" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Consultar usuários por ID.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Consultar usuários excluídos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Consultar usuários excluídos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Página de stand by" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Página de stand by.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,7 +172,7 @@
   <data name="Consultar por email" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Consultar por email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Consultar usuários excluídos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Consultar usuários excluídos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Consultar usuários excluídos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

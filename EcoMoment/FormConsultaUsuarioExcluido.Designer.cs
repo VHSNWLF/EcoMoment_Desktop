@@ -59,11 +59,10 @@
             this.qtdePostagens,
             this.Reputacao,
             this.Biografia});
-            this.dataGridView1.Location = new System.Drawing.Point(36, 108);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(27, 88);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(573, 327);
+            this.dataGridView1.Size = new System.Drawing.Size(430, 266);
             this.dataGridView1.TabIndex = 8;
             // 
             // idUsuario
@@ -147,10 +146,9 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(76, 455);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(57, 370);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(485, 53);
+            this.button1.Size = new System.Drawing.Size(364, 43);
             this.button1.TabIndex = 9;
             this.button1.Text = "Mostrar";
             this.button1.UseVisualStyleBackColor = false;
@@ -158,23 +156,24 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Consultar_usuários_excluídos;
+            this.pictureBox1.BackgroundImage = global::EcoMoment.Properties.Resources.Consultar_usuários_excluídos1;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(645, 568);
+            this.pictureBox1.Size = new System.Drawing.Size(484, 462);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // FormConsultaUsuarioExcluido
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 562);
+            this.ClientSize = new System.Drawing.Size(481, 457);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormConsultaUsuarioExcluido";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormConsultaUsuarioExcluido";
