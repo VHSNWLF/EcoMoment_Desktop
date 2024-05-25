@@ -40,7 +40,9 @@
             this.Reputacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Biografia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -57,10 +59,11 @@
             this.qtdePostagens,
             this.Reputacao,
             this.Biografia});
-            this.dataGridView1.Location = new System.Drawing.Point(27, 88);
+            this.dataGridView1.Location = new System.Drawing.Point(36, 108);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(430, 266);
+            this.dataGridView1.Size = new System.Drawing.Size(573, 327);
             this.dataGridView1.TabIndex = 8;
             // 
             // idUsuario
@@ -94,62 +97,89 @@
             // qtdeSeguidores
             // 
             this.qtdeSeguidores.HeaderText = "Seguidores";
+            this.qtdeSeguidores.MinimumWidth = 6;
             this.qtdeSeguidores.Name = "qtdeSeguidores";
             this.qtdeSeguidores.ReadOnly = true;
+            this.qtdeSeguidores.Width = 125;
             // 
             // qtdeSeguindo
             // 
             this.qtdeSeguindo.HeaderText = "Seguindo";
+            this.qtdeSeguindo.MinimumWidth = 6;
             this.qtdeSeguindo.Name = "qtdeSeguindo";
             this.qtdeSeguindo.ReadOnly = true;
+            this.qtdeSeguindo.Width = 125;
             // 
             // qtdeCurtidas
             // 
             this.qtdeCurtidas.HeaderText = "Curtidas";
+            this.qtdeCurtidas.MinimumWidth = 6;
             this.qtdeCurtidas.Name = "qtdeCurtidas";
             this.qtdeCurtidas.ReadOnly = true;
+            this.qtdeCurtidas.Width = 125;
             // 
             // qtdePostagens
             // 
             this.qtdePostagens.HeaderText = "Postagens";
+            this.qtdePostagens.MinimumWidth = 6;
             this.qtdePostagens.Name = "qtdePostagens";
             this.qtdePostagens.ReadOnly = true;
+            this.qtdePostagens.Width = 125;
             // 
             // Reputacao
             // 
             this.Reputacao.HeaderText = "Reputação";
+            this.Reputacao.MinimumWidth = 6;
             this.Reputacao.Name = "Reputacao";
             this.Reputacao.ReadOnly = true;
+            this.Reputacao.Width = 125;
             // 
             // Biografia
             // 
             this.Biografia.HeaderText = "Biografia";
+            this.Biografia.MinimumWidth = 6;
             this.Biografia.Name = "Biografia";
             this.Biografia.ReadOnly = true;
+            this.Biografia.Width = 125;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(57, 370);
+            this.button1.Location = new System.Drawing.Point(76, 455);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(364, 43);
+            this.button1.Size = new System.Drawing.Size(485, 53);
             this.button1.TabIndex = 9;
             this.button1.Text = "Mostrar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Consultar_usuários_excluídos;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(645, 568);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormConsultaUsuarioExcluido
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 457);
+            this.ClientSize = new System.Drawing.Size(641, 562);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormConsultaUsuarioExcluido";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormConsultaUsuarioExcluido";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -168,5 +198,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Reputacao;
         private System.Windows.Forms.DataGridViewTextBoxColumn Biografia;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
