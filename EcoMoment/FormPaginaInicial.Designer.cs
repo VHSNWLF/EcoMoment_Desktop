@@ -86,28 +86,28 @@
             this.atualizarUsuarioADMToolStripMenuItem,
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1});
             this.usuárosAdmToolStripMenuItem.Name = "usuárosAdmToolStripMenuItem";
-            this.usuárosAdmToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
-            this.usuárosAdmToolStripMenuItem.Text = "Usuáros [Adm]";
+            this.usuárosAdmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.usuárosAdmToolStripMenuItem.Text = "Usuáros [Mods]";
             // 
             // excluirUsuárioADMToolStripMenuItem1
             // 
             this.excluirUsuárioADMToolStripMenuItem1.Name = "excluirUsuárioADMToolStripMenuItem1";
-            this.excluirUsuárioADMToolStripMenuItem1.Size = new System.Drawing.Size(316, 26);
-            this.excluirUsuárioADMToolStripMenuItem1.Text = "Excluir usuário ADM";
+            this.excluirUsuárioADMToolStripMenuItem1.Size = new System.Drawing.Size(371, 26);
+            this.excluirUsuárioADMToolStripMenuItem1.Text = "Excluir usuário Moderador";
             this.excluirUsuárioADMToolStripMenuItem1.Click += new System.EventHandler(this.excluirUsuárioADMToolStripMenuItem1_Click);
             // 
             // atualizarUsuarioADMToolStripMenuItem
             // 
             this.atualizarUsuarioADMToolStripMenuItem.Name = "atualizarUsuarioADMToolStripMenuItem";
-            this.atualizarUsuarioADMToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
-            this.atualizarUsuarioADMToolStripMenuItem.Text = "Atualizar dados ADM";
+            this.atualizarUsuarioADMToolStripMenuItem.Size = new System.Drawing.Size(371, 26);
+            this.atualizarUsuarioADMToolStripMenuItem.Text = "Atualizar dados Moderador";
             this.atualizarUsuarioADMToolStripMenuItem.Click += new System.EventHandler(this.atualizarUsuarioADMToolStripMenuItem_Click);
             // 
             // consultarDadosDeUsuáriosADMToolStripMenuItem1
             // 
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Name = "consultarDadosDeUsuáriosADMToolStripMenuItem1";
-            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Size = new System.Drawing.Size(316, 26);
-            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Text = "Consultar dados de usuários ADM";
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Size = new System.Drawing.Size(371, 26);
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Text = "Consultar dados de usuários Moderadores";
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Click += new System.EventHandler(this.consultarDadosDeUsuáriosADMToolStripMenuItem1_Click);
             // 
             // usuáriosWebToolStripMenuItem1
@@ -117,7 +117,7 @@
             this.atualizarUsuárioWebToolStripMenuItem1,
             this.consultarDadosDeUsuáriosWebToolStripMenuItem});
             this.usuáriosWebToolStripMenuItem1.Name = "usuáriosWebToolStripMenuItem1";
-            this.usuáriosWebToolStripMenuItem1.Size = new System.Drawing.Size(192, 26);
+            this.usuáriosWebToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.usuáriosWebToolStripMenuItem1.Text = "Usuários [Web]";
             // 
             // excluirUsuárioWebToolStripMenuItem1
@@ -144,12 +144,12 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(189, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(221, 6);
             // 
             // sairToolStripMenuItem1
             // 
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(192, 26);
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.sairToolStripMenuItem1.Text = "Sair";
             this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
