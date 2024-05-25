@@ -58,6 +58,10 @@ namespace EcoMoment
                         if (uadm.excluirUsuarioAdm(int.Parse(comboBoxExcluirAdm.SelectedItem.ToString())))
                         {
                             MessageBox.Show("Usuário excluído com sucesso!");
+                            comboBoxExcluirAdm.Text = "";
+                            txtEmailExcluirAdm.Text = "";
+                            txtNomeExcluirAdm.Text = "";
+                            txtSenhaExcluirAdm.Text = "";
                         }
                         else
                         {
@@ -81,6 +85,10 @@ namespace EcoMoment
                         if (uadm.atualizarUsuarioAdm(int.Parse(comboBoxExcluirAdm.SelectedItem.ToString()), txtNomeExcluirAdm.Text, txtEmailExcluirAdm.Text, txtSenhaExcluirAdm.Text))
                         {
                             MessageBox.Show("Usuário atualizado com sucesso!");
+                            comboBoxExcluirAdm.Text = "";
+                            txtEmailExcluirAdm.Text = "";
+                            txtNomeExcluirAdm.Text = "";
+                            txtSenhaExcluirAdm.Text = "";
                         }
                         else
                         {

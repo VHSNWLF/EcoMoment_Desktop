@@ -66,6 +66,10 @@ namespace EcoMoment
                         if (uWeb.excluirUsuarioWeb(int.Parse(comboBoxExcluirWeb.SelectedItem.ToString())))
                         {
                             MessageBox.Show("Usuário excluído com sucesso!");
+                            comboBoxExcluirWeb.Text = "";
+                            txtEmailExcluirWeb.Text = "";
+                            txtNomeExcluirWeb.Text = "";
+                            txtSenhaExcluirWeb.Text = "";
                         }
                         else
                         {
@@ -86,6 +90,10 @@ namespace EcoMoment
                         if (uWeb.atualizarUsuarioWeb(int.Parse(comboBoxExcluirWeb.SelectedItem.ToString()), txtNomeExcluirWeb.Text, txtEmailExcluirWeb.Text, txtSenhaExcluirWeb.Text))
                         {
                             MessageBox.Show("Usuário atualizado com sucesso!");
+                            comboBoxExcluirWeb.Text = "";
+                            txtEmailExcluirWeb.Text = "";
+                            txtNomeExcluirWeb.Text = "";
+                            txtSenhaExcluirWeb.Text = "";
                         }
                         else
                         {
@@ -164,6 +172,10 @@ namespace EcoMoment
             if (uWeb.reativarUsuario(int.Parse(comboBoxExcluirWeb.SelectedItem.ToString())))
             {
                 MessageBox.Show("Usuário reativado com sucesso!");
+                comboBoxExcluirWeb.Text = "";
+                txtEmailExcluirWeb.Text = "";
+                txtNomeExcluirWeb.Text = "";
+                txtSenhaExcluirWeb.Text = "";
             }
         }
     }

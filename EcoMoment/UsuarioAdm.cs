@@ -84,7 +84,7 @@ namespace EcoMoment
             try
             {
                 DAO_Conexao.con.Open();
-                MySqlCommand sql = new MySqlCommand("delete from EcoMomentBD_UsuarioAdm where idUsuarioAdm = " + id + ")", DAO_Conexao.con);
+                MySqlCommand sql = new MySqlCommand("delete from EcoMomentBD_UsuarioAdm where idUsuarioAdm = " + id, DAO_Conexao.con);
                 sql.ExecuteNonQuery();
             }
             catch (Exception ex)
