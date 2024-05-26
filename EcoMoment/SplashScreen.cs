@@ -23,6 +23,11 @@ namespace EcoMoment
             if (progressBar1.Value == 100)
             {
                 timerSplash.Stop();
+                PaginaInicial2 p2 = new PaginaInicial2(0);
+                this.Hide();
+                p2.ShowDialog();
+                this.Close();
+                
             }
         }
     }

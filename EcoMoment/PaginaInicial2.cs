@@ -17,11 +17,7 @@ namespace EcoMoment
         {
             if(p == 0)
             {
-                Thread thread = new Thread(new ThreadStart(splashScreen));
-                thread.Start();
-                Thread.Sleep(5000);
                 InitializeComponent();
-                thread.Abort();
             }
             else if(p == 1)
             {
@@ -35,10 +31,6 @@ namespace EcoMoment
                 Console.WriteLine("Erro de Conexão");
         }
 
-        private void splashScreen()
-        {
-            Application.Run(new SplashScreen());
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -48,6 +40,10 @@ namespace EcoMoment
                 this.Hide();
                 fp.ShowDialog();
                 this.Close();
+            }
+            else 
+            {
+                
             }
         }
     }

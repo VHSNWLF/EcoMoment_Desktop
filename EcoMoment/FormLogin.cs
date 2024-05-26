@@ -62,11 +62,6 @@ namespace EcoMoment
 
         private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (op == 0)
-            {
-                PaginaInicial2 p = new PaginaInicial2(1);
-                p.Show();
-            }
             
         }
     }

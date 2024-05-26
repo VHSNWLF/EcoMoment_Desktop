@@ -17,6 +17,7 @@ namespace EcoMoment
         {
             
             InitializeComponent();
+            IsMdiContainer = true;
 
         }
 
@@ -31,6 +32,7 @@ namespace EcoMoment
         private void excluirUsuárioADMToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FormExcluirAtualizarUsuarioAdm fe = new FormExcluirAtualizarUsuarioAdm(2);
+            fe.MdiParent = this;
             fe.Show();
         }
            
