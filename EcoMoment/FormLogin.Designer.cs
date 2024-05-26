@@ -38,11 +38,12 @@
             // 
             // btnCadastrar
             // 
+            this.btnCadastrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnCadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrar.Location = new System.Drawing.Point(81, 597);
+            this.btnCadastrar.Location = new System.Drawing.Point(79, 599);
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(278, 44);
@@ -53,11 +54,12 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(81, 494);
+            this.btnLogin.Location = new System.Drawing.Point(79, 496);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(278, 44);
@@ -68,29 +70,34 @@
             // 
             // txtSenhaEntrar
             // 
-            this.txtSenhaEntrar.Location = new System.Drawing.Point(55, 187);
+            this.txtSenhaEntrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtSenhaEntrar.Location = new System.Drawing.Point(53, 189);
             this.txtSenhaEntrar.Margin = new System.Windows.Forms.Padding(4);
             this.txtSenhaEntrar.Name = "txtSenhaEntrar";
             this.txtSenhaEntrar.PasswordChar = '*';
             this.txtSenhaEntrar.Size = new System.Drawing.Size(318, 22);
             this.txtSenhaEntrar.TabIndex = 1;
             this.txtSenhaEntrar.Text = "batata";
+            this.txtSenhaEntrar.TextChanged += new System.EventHandler(this.txtSenhaEntrar_TextChanged);
             // 
             // txtEmailEntrar
             // 
-            this.txtEmailEntrar.Location = new System.Drawing.Point(55, 115);
+            this.txtEmailEntrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtEmailEntrar.Location = new System.Drawing.Point(53, 117);
             this.txtEmailEntrar.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmailEntrar.Name = "txtEmailEntrar";
             this.txtEmailEntrar.Size = new System.Drawing.Size(318, 22);
             this.txtEmailEntrar.TabIndex = 0;
             this.txtEmailEntrar.Text = "vitorwolf0007@hotmail.com";
+            this.txtEmailEntrar.TextChanged += new System.EventHandler(this.txtEmailEntrar_TextChanged);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Tela_login;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(442, 683);
+            this.pictureBox1.Size = new System.Drawing.Size(428, 694);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -99,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(440, 681);
+            this.ClientSize = new System.Drawing.Size(420, 692);
             this.Controls.Add(this.txtSenhaEntrar);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnCadastrar);

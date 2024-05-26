@@ -40,6 +40,7 @@
             // 
             // txtEmailCadastrar
             // 
+            this.txtEmailCadastrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtEmailCadastrar.Location = new System.Drawing.Point(46, 187);
             this.txtEmailCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmailCadastrar.Name = "txtEmailCadastrar";
@@ -48,6 +49,7 @@
             // 
             // txtSenhaCadastrar
             // 
+            this.txtSenhaCadastrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSenhaCadastrar.Location = new System.Drawing.Point(46, 253);
             this.txtSenhaCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSenhaCadastrar.Name = "txtSenhaCadastrar";
@@ -56,6 +58,7 @@
             // 
             // txtSenha2Cadastrar
             // 
+            this.txtSenha2Cadastrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSenha2Cadastrar.Location = new System.Drawing.Point(46, 323);
             this.txtSenha2Cadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSenha2Cadastrar.Name = "txtSenha2Cadastrar";
@@ -64,6 +67,7 @@
             // 
             // txtNomeCadastrar
             // 
+            this.txtNomeCadastrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtNomeCadastrar.Location = new System.Drawing.Point(46, 124);
             this.txtNomeCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNomeCadastrar.Name = "txtNomeCadastrar";
@@ -72,6 +76,7 @@
             // 
             // btnCadastrar
             // 
+            this.btnCadastrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnCadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.btnCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -87,6 +92,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Tela_cadastro;
             this.pictureBox1.Location = new System.Drawing.Point(-1, -2);
             this.pictureBox1.Name = "pictureBox1";
@@ -97,6 +103,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

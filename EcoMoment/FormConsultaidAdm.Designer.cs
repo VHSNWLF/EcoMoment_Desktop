@@ -42,6 +42,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -57,6 +58,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idUsuario,
@@ -100,6 +102,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(227, 120);
@@ -110,6 +113,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Consultar_usuários_Adm_por_ID;
             this.pictureBox1.Location = new System.Drawing.Point(-3, -1);
             this.pictureBox1.Name = "pictureBox1";

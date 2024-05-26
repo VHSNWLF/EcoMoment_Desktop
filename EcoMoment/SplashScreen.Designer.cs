@@ -35,10 +35,10 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(153, 227);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Location = new System.Drawing.Point(204, 279);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(290, 14);
+            this.progressBar1.Size = new System.Drawing.Size(387, 17);
             this.progressBar1.TabIndex = 0;
             // 
             // timerSplash
@@ -49,15 +49,15 @@
             // 
             // SplashScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EcoMoment.Properties.Resources.SplashScreen2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(591, 366);
+            this.ClientSize = new System.Drawing.Size(788, 450);
             this.Controls.Add(this.progressBar1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "SplashScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen";

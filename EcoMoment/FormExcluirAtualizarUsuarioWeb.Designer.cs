@@ -40,32 +40,35 @@
             // 
             // comboBoxExcluirWeb
             // 
+            this.comboBoxExcluirWeb.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBoxExcluirWeb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBoxExcluirWeb.FormattingEnabled = true;
-            this.comboBoxExcluirWeb.Location = new System.Drawing.Point(58, 119);
-            this.comboBoxExcluirWeb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxExcluirWeb.Location = new System.Drawing.Point(77, 146);
+            this.comboBoxExcluirWeb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxExcluirWeb.Name = "comboBoxExcluirWeb";
-            this.comboBoxExcluirWeb.Size = new System.Drawing.Size(196, 21);
+            this.comboBoxExcluirWeb.Size = new System.Drawing.Size(260, 24);
             this.comboBoxExcluirWeb.TabIndex = 0;
             this.comboBoxExcluirWeb.SelectedIndexChanged += new System.EventHandler(this.comboBoxExcluirWeb_SelectedIndexChanged);
             // 
             // txtNomeExcluirWeb
             // 
-            this.txtNomeExcluirWeb.Location = new System.Drawing.Point(58, 176);
-            this.txtNomeExcluirWeb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNomeExcluirWeb.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtNomeExcluirWeb.Location = new System.Drawing.Point(77, 217);
+            this.txtNomeExcluirWeb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNomeExcluirWeb.Name = "txtNomeExcluirWeb";
-            this.txtNomeExcluirWeb.Size = new System.Drawing.Size(196, 20);
+            this.txtNomeExcluirWeb.Size = new System.Drawing.Size(260, 22);
             this.txtNomeExcluirWeb.TabIndex = 1;
             // 
             // btnExcluirWeb
             // 
+            this.btnExcluirWeb.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnExcluirWeb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.btnExcluirWeb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExcluirWeb.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnExcluirWeb.Location = new System.Drawing.Point(63, 385);
-            this.btnExcluirWeb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExcluirWeb.Location = new System.Drawing.Point(84, 474);
+            this.btnExcluirWeb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExcluirWeb.Name = "btnExcluirWeb";
-            this.btnExcluirWeb.Size = new System.Drawing.Size(182, 37);
+            this.btnExcluirWeb.Size = new System.Drawing.Size(243, 46);
             this.btnExcluirWeb.TabIndex = 4;
             this.btnExcluirWeb.Text = "Excluir/ Atualizar";
             this.btnExcluirWeb.UseVisualStyleBackColor = false;
@@ -73,29 +76,33 @@
             // 
             // txtSenhaExcluirWeb
             // 
-            this.txtSenhaExcluirWeb.Location = new System.Drawing.Point(58, 287);
-            this.txtSenhaExcluirWeb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSenhaExcluirWeb.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtSenhaExcluirWeb.Location = new System.Drawing.Point(77, 353);
+            this.txtSenhaExcluirWeb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSenhaExcluirWeb.Name = "txtSenhaExcluirWeb";
-            this.txtSenhaExcluirWeb.Size = new System.Drawing.Size(196, 20);
+            this.txtSenhaExcluirWeb.Size = new System.Drawing.Size(260, 22);
             this.txtSenhaExcluirWeb.TabIndex = 3;
             // 
             // txtEmailExcluirWeb
             // 
-            this.txtEmailExcluirWeb.Location = new System.Drawing.Point(56, 230);
-            this.txtEmailExcluirWeb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEmailExcluirWeb.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtEmailExcluirWeb.Location = new System.Drawing.Point(75, 283);
+            this.txtEmailExcluirWeb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmailExcluirWeb.Name = "txtEmailExcluirWeb";
-            this.txtEmailExcluirWeb.Size = new System.Drawing.Size(198, 20);
+            this.txtEmailExcluirWeb.Size = new System.Drawing.Size(263, 22);
             this.txtEmailExcluirWeb.TabIndex = 2;
             // 
             // btnReativar
             // 
+            this.btnReativar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnReativar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.btnReativar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReativar.Enabled = false;
             this.btnReativar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnReativar.Location = new System.Drawing.Point(63, 427);
+            this.btnReativar.Location = new System.Drawing.Point(84, 526);
+            this.btnReativar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReativar.Name = "btnReativar";
-            this.btnReativar.Size = new System.Drawing.Size(182, 23);
+            this.btnReativar.Size = new System.Drawing.Size(243, 28);
             this.btnReativar.TabIndex = 20;
             this.btnReativar.Text = "Reativar";
             this.btnReativar.UseVisualStyleBackColor = false;
@@ -103,20 +110,21 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Excluir_Web;
             this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(310, 451);
+            this.pictureBox1.Size = new System.Drawing.Size(413, 555);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
             // FormExcluirAtualizarUsuarioWeb
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(309, 450);
+            this.ClientSize = new System.Drawing.Size(412, 554);
             this.Controls.Add(this.btnReativar);
             this.Controls.Add(this.comboBoxExcluirWeb);
             this.Controls.Add(this.txtNomeExcluirWeb);
@@ -124,6 +132,7 @@
             this.Controls.Add(this.txtSenhaExcluirWeb);
             this.Controls.Add(this.txtEmailExcluirWeb);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormExcluirAtualizarUsuarioWeb";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormExcluirAtualizarUsuarioWeb";

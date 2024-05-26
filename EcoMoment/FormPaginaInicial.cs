@@ -29,9 +29,9 @@ namespace EcoMoment
 
         private void sairToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            this.Close();
             PaginaInicial2 fl = new PaginaInicial2(1);
             fl.Show();
+            this.Close();
         }
 
         private void excluirUsuárioADMToolStripMenuItem1_Click(object sender, EventArgs e)

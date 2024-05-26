@@ -73,5 +73,15 @@ namespace EcoMoment
         {
             
         }
+
+        private void txtEmailEntrar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSenhaEntrar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
