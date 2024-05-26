@@ -78,7 +78,6 @@
             this.txtSenhaEntrar.Size = new System.Drawing.Size(318, 22);
             this.txtSenhaEntrar.TabIndex = 1;
             this.txtSenhaEntrar.Text = "batata";
-            this.txtSenhaEntrar.TextChanged += new System.EventHandler(this.txtSenhaEntrar_TextChanged);
             // 
             // txtEmailEntrar
             // 
@@ -89,7 +88,6 @@
             this.txtEmailEntrar.Size = new System.Drawing.Size(318, 22);
             this.txtEmailEntrar.TabIndex = 0;
             this.txtEmailEntrar.Text = "vitorwolf0007@hotmail.com";
-            this.txtEmailEntrar.TextChanged += new System.EventHandler(this.txtEmailEntrar_TextChanged);
             // 
             // pictureBox1
             // 
@@ -116,7 +114,6 @@
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormLogin";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormLogin_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

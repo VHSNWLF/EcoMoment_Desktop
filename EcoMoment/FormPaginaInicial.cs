@@ -30,7 +30,8 @@ namespace EcoMoment
         private void sairToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             PaginaInicial2 fl = new PaginaInicial2(1);
-            fl.Show();
+            this.Hide();
+            fl.ShowDialog();
             this.Close();
         }
 

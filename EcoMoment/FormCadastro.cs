@@ -36,6 +36,9 @@ namespace EcoMoment
                             {
                                 MessageBox.Show("Sucesso ao cadastrar usuário Adm. Este formulário fechará automáticamente em 3 segundos.");
                                 System.Threading.Thread.Sleep(3000);
+                                PaginaInicial2 f2 = new PaginaInicial2(1);
+                                this.Hide();
+                                f2.ShowDialog();
                                 this.Close();
                             }
                             else
@@ -64,7 +67,8 @@ namespace EcoMoment
         private void label1_Click(object sender, EventArgs e)
         {
             FormLogin f = new FormLogin();
-            f.Show();
+            this.Hide();
+            f.ShowDialog();
             this.Close();
         }
     }

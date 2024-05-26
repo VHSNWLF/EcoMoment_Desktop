@@ -30,8 +30,8 @@ namespace EcoMoment
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             FormCadastro fc = new FormCadastro();
-            fc.Show();
-            op = 2;
+            this.Hide();
+            fc.ShowDialog();
             this.Close();
             txtEmailEntrar.Text = "";
             txtSenhaEntrar.Text = "";
@@ -47,6 +47,9 @@ namespace EcoMoment
                     if(result == DialogResult.OK)
                     {
                         DialogResult = DialogResult.Yes;
+                        FormPaginaInicial fp = new FormPaginaInicial(2);
+                        this.Hide();
+                        fp.ShowDialog();
                         this.Close();
                     }
                     
@@ -54,8 +57,10 @@ namespace EcoMoment
                 else if (DAO_Conexao.VeriLogin(txtEmailEntrar.Text, txtSenhaEntrar.Text) == 1)
                 {
                     MessageBox.Show("Login realizado com sucesso!", "Moderador");
-                    op= 1;
                     DialogResult = DialogResult.OK;
+                    FormPaginaInicial fp = new FormPaginaInicial(1);
+                    this.Hide();
+                    fp.ShowDialog();
                     this.Close();
                 }
                 else
@@ -67,21 +72,6 @@ namespace EcoMoment
             {
                 MessageBox.Show("Nenhum campo pode estar vazio. Preencha todos e tente novamente.");
             }
-        }
-
-        private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            
-        }
-
-        private void txtEmailEntrar_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtSenhaEntrar_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
