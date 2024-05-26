@@ -41,13 +41,22 @@ namespace EcoMoment
         {
             if (txtEmailEntrar.Text != "" && txtSenhaEntrar.Text != "")
             {
-                if (DAO_Conexao.VeriLogin(txtEmailEntrar.Text, txtSenhaEntrar.Text) == 1)
+                if(txtEmailEntrar.Text == "ADM" && txtSenhaEntrar.Text == "adm")
                 {
-                    MessageBox.Show("Login realizado com sucesso!");
+                    DialogResult result = MessageBox.Show("Bem vindo, ADM","ADM", MessageBoxButtons.OK);
+                    if(result == DialogResult.OK)
+                    {
+                        DialogResult = DialogResult.Yes;
+                        this.Close();
+                    }
+                    
+                }
+                else if (DAO_Conexao.VeriLogin(txtEmailEntrar.Text, txtSenhaEntrar.Text) == 1)
+                {
+                    MessageBox.Show("Login realizado com sucesso!", "Moderador");
                     op= 1;
                     DialogResult = DialogResult.OK;
                     this.Close();
-
                 }
                 else
                 {

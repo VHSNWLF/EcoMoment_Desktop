@@ -13,12 +13,17 @@ namespace EcoMoment
 {
     public partial class FormPaginaInicial : Form
     {
-        public FormPaginaInicial()
+        public FormPaginaInicial(int op)
         {
-            
             InitializeComponent();
             IsMdiContainer = true;
-
+            if (op == 1)
+            {
+                usuárosAdmToolStripMenuItem.Enabled = false;
+            }
+            else {
+                usuárosAdmToolStripMenuItem.Enabled=true;
+            }
         }
 
 
