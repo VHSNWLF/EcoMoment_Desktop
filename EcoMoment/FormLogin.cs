@@ -45,9 +45,8 @@ namespace EcoMoment
                 {
                     MessageBox.Show("Login realizado com sucesso!");
                     op= 1;
+                    DialogResult = DialogResult.OK;
                     this.Close();
-                    FormPaginaInicial p = new FormPaginaInicial();
-                    p.Show();
 
                 }
                 else

@@ -43,8 +43,12 @@ namespace EcoMoment
         private void button1_Click(object sender, EventArgs e)
         {
             FormLogin fl = new FormLogin();
-            fl.Show();
-            this.Hide();
+            if (fl.ShowDialog() == DialogResult.OK) {
+                FormPaginaInicial fp = new FormPaginaInicial();
+                this.Hide();
+                fp.ShowDialog();
+                this.Close();
+            }
         }
     }
 }

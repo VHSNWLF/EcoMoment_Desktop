@@ -33,7 +33,7 @@ namespace EcoMoment
             FormExcluirAtualizarUsuarioAdm fe = new FormExcluirAtualizarUsuarioAdm(2);
             fe.Show();
         }
-
+           
         private void atualizarUsuarioADMToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormExcluirAtualizarUsuarioAdm fa = new FormExcluirAtualizarUsuarioAdm(1);

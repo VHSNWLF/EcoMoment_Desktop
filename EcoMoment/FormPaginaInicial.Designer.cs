@@ -63,8 +63,8 @@
             this.menuToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(600, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -76,7 +76,7 @@
             this.toolStripMenuItem2,
             this.sairToolStripMenuItem1});
             this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
-            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(60, 24);
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(50, 20);
             this.menuToolStripMenuItem1.Text = "Menu";
             // 
             // usuárosAdmToolStripMenuItem
@@ -86,27 +86,27 @@
             this.atualizarUsuarioADMToolStripMenuItem,
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1});
             this.usuárosAdmToolStripMenuItem.Name = "usuárosAdmToolStripMenuItem";
-            this.usuárosAdmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.usuárosAdmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.usuárosAdmToolStripMenuItem.Text = "Usuáros [Mods]";
             // 
             // excluirUsuárioADMToolStripMenuItem1
             // 
             this.excluirUsuárioADMToolStripMenuItem1.Name = "excluirUsuárioADMToolStripMenuItem1";
-            this.excluirUsuárioADMToolStripMenuItem1.Size = new System.Drawing.Size(371, 26);
+            this.excluirUsuárioADMToolStripMenuItem1.Size = new System.Drawing.Size(296, 22);
             this.excluirUsuárioADMToolStripMenuItem1.Text = "Excluir usuário Moderador";
             this.excluirUsuárioADMToolStripMenuItem1.Click += new System.EventHandler(this.excluirUsuárioADMToolStripMenuItem1_Click);
             // 
             // atualizarUsuarioADMToolStripMenuItem
             // 
             this.atualizarUsuarioADMToolStripMenuItem.Name = "atualizarUsuarioADMToolStripMenuItem";
-            this.atualizarUsuarioADMToolStripMenuItem.Size = new System.Drawing.Size(371, 26);
+            this.atualizarUsuarioADMToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.atualizarUsuarioADMToolStripMenuItem.Text = "Atualizar dados Moderador";
             this.atualizarUsuarioADMToolStripMenuItem.Click += new System.EventHandler(this.atualizarUsuarioADMToolStripMenuItem_Click);
             // 
             // consultarDadosDeUsuáriosADMToolStripMenuItem1
             // 
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Name = "consultarDadosDeUsuáriosADMToolStripMenuItem1";
-            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Size = new System.Drawing.Size(371, 26);
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Size = new System.Drawing.Size(296, 22);
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Text = "Consultar dados de usuários Moderadores";
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Click += new System.EventHandler(this.consultarDadosDeUsuáriosADMToolStripMenuItem1_Click);
             // 
@@ -117,39 +117,39 @@
             this.atualizarUsuárioWebToolStripMenuItem1,
             this.consultarDadosDeUsuáriosWebToolStripMenuItem});
             this.usuáriosWebToolStripMenuItem1.Name = "usuáriosWebToolStripMenuItem1";
-            this.usuáriosWebToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.usuáriosWebToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.usuáriosWebToolStripMenuItem1.Text = "Usuários [Web]";
             // 
             // excluirUsuárioWebToolStripMenuItem1
             // 
             this.excluirUsuárioWebToolStripMenuItem1.Name = "excluirUsuárioWebToolStripMenuItem1";
-            this.excluirUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(312, 26);
+            this.excluirUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(250, 22);
             this.excluirUsuárioWebToolStripMenuItem1.Text = "Excluir usuário Web";
             this.excluirUsuárioWebToolStripMenuItem1.Click += new System.EventHandler(this.excluirUsuárioWebToolStripMenuItem1_Click);
             // 
             // atualizarUsuárioWebToolStripMenuItem1
             // 
             this.atualizarUsuárioWebToolStripMenuItem1.Name = "atualizarUsuárioWebToolStripMenuItem1";
-            this.atualizarUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(312, 26);
+            this.atualizarUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(250, 22);
             this.atualizarUsuárioWebToolStripMenuItem1.Text = "Atualizar usuário Web";
             this.atualizarUsuárioWebToolStripMenuItem1.Click += new System.EventHandler(this.atualizarUsuárioWebToolStripMenuItem1_Click);
             // 
             // consultarDadosDeUsuáriosWebToolStripMenuItem
             // 
             this.consultarDadosDeUsuáriosWebToolStripMenuItem.Name = "consultarDadosDeUsuáriosWebToolStripMenuItem";
-            this.consultarDadosDeUsuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(312, 26);
+            this.consultarDadosDeUsuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
             this.consultarDadosDeUsuáriosWebToolStripMenuItem.Text = "Consultar dados de usuários Web";
             this.consultarDadosDeUsuáriosWebToolStripMenuItem.Click += new System.EventHandler(this.consultarDadosDeUsuáriosWebToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(221, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 6);
             // 
             // sairToolStripMenuItem1
             // 
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem1.Text = "Sair";
             this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
@@ -172,19 +172,19 @@
             // excluirUsuárioADMToolStripMenuItem
             // 
             this.excluirUsuárioADMToolStripMenuItem.Name = "excluirUsuárioADMToolStripMenuItem";
-            this.excluirUsuárioADMToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
+            this.excluirUsuárioADMToolStripMenuItem.Size = new System.Drawing.Size(253, 22);
             this.excluirUsuárioADMToolStripMenuItem.Text = "Excluir usuário ADM";
             // 
             // atualizarDadosADMToolStripMenuItem
             // 
             this.atualizarDadosADMToolStripMenuItem.Name = "atualizarDadosADMToolStripMenuItem";
-            this.atualizarDadosADMToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
+            this.atualizarDadosADMToolStripMenuItem.Size = new System.Drawing.Size(253, 22);
             this.atualizarDadosADMToolStripMenuItem.Text = "Atualizar dados ADM";
             // 
             // consultarDadosDeUsuáriosADMToolStripMenuItem
             // 
             this.consultarDadosDeUsuáriosADMToolStripMenuItem.Name = "consultarDadosDeUsuáriosADMToolStripMenuItem";
-            this.consultarDadosDeUsuáriosADMToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem.Size = new System.Drawing.Size(253, 22);
             this.consultarDadosDeUsuáriosADMToolStripMenuItem.Text = "Consultar dados de usuários ADM";
             // 
             // usuáriosWebToolStripMenuItem
@@ -200,19 +200,19 @@
             // excluirUsuárioWebToolStripMenuItem
             // 
             this.excluirUsuárioWebToolStripMenuItem.Name = "excluirUsuárioWebToolStripMenuItem";
-            this.excluirUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(312, 26);
+            this.excluirUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
             this.excluirUsuárioWebToolStripMenuItem.Text = "Excluir usuário Web";
             // 
             // atualizarUsuárioWebToolStripMenuItem
             // 
             this.atualizarUsuárioWebToolStripMenuItem.Name = "atualizarUsuárioWebToolStripMenuItem";
-            this.atualizarUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(312, 26);
+            this.atualizarUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
             this.atualizarUsuárioWebToolStripMenuItem.Text = "Atualizar usuário Web";
             // 
             // consultarDadosDeUisuáriosWebToolStripMenuItem
             // 
             this.consultarDadosDeUisuáriosWebToolStripMenuItem.Name = "consultarDadosDeUisuáriosWebToolStripMenuItem";
-            this.consultarDadosDeUisuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(312, 26);
+            this.consultarDadosDeUisuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
             this.consultarDadosDeUisuáriosWebToolStripMenuItem.Text = "Consultar dados de usuários Web";
             // 
             // toolStripMenuItem1
@@ -230,21 +230,21 @@
             // 
             this.pictureBox1.Image = global::EcoMoment.Properties.Resources.Página_de_stand_by;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(800, 453);
+            this.pictureBox1.Size = new System.Drawing.Size(600, 368);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
             // FormPaginaInicial
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pictureBox1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormPaginaInicial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPaginaInicial";
