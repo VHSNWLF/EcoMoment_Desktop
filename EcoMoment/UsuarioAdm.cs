@@ -43,6 +43,35 @@ namespace EcoMoment
             return cad;
         }
 
+        public bool VerificaUsuarioAdmExistente(string nome, string  email)
+        {
+            bool existe = false;
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand sql = new MySqlCommand("Select * from EcoMomentBD_UsuarioAdm", DAO_Conexao.con);
+                MySqlDataReader reader = sql.ExecuteReader();
+                while (reader.Read()) {
+                    if (reader["NomeAdm"].ToString() == nome)
+                    {
+                        existe = true;
+                    }else if (reader["EmailAdm"].ToString() == email)
+                    {
+                        existe = true;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                DAO_Conexao.con.Close();
+            }
+            return existe;
+        }
+
         public MySqlDataReader consultarUsuarioAdmId(int id)
         {
             MySqlDataReader resultado = null;

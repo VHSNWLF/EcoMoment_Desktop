@@ -27,18 +27,22 @@ namespace EcoMoment
                     try
                     {
                         UsuarioAdm uAdm = new UsuarioAdm(txtNomeCadastrar.Text, txtEmailCadastrar.Text, txtSenha2Cadastrar.Text);
-                        if (uAdm.cadastrarUsuarioAdm())
+                        if (uAdm.VerificaUsuarioAdmExistente(txtNomeCadastrar.Text, txtEmailCadastrar.Text))
                         {
-                            MessageBox.Show("Sucesso ao cadastrar usuário Adm. Este formulário fechará automáticamente em 3 segundos.");
-                            System.Threading.Thread.Sleep(3000);
-                            this.Close();
+                            MessageBox.Show("Nome de Usuário ou Email já existem");
                         }
-                        else
-                        {
-                            MessageBox.Show("Erro de excução ao cadastrar usuário Adm. Revise seus dados e tente novamente.");
-                        }
-
-
+                        else {
+                            if (uAdm.cadastrarUsuarioAdm())
+                            {
+                                MessageBox.Show("Sucesso ao cadastrar usuário Adm. Este formulário fechará automáticamente em 3 segundos.");
+                                System.Threading.Thread.Sleep(3000);
+                                this.Close();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Erro de excução ao cadastrar usuário Adm. Revise seus dados e tente novamente.");
+                            }
+                        } 
                     }
                     catch (Exception ex)
                     {
