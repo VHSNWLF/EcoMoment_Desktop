@@ -62,7 +62,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(933, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(933, 25);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -74,7 +74,7 @@
             this.toolStripMenuItem2,
             this.sairToolStripMenuItem1});
             this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
-            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(50, 20);
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(48, 21);
             this.menuToolStripMenuItem1.Text = "Menu";
             // 
             // usuárosAdmToolStripMenuItem
@@ -85,26 +85,26 @@
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1});
             this.usuárosAdmToolStripMenuItem.Name = "usuárosAdmToolStripMenuItem";
             this.usuárosAdmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.usuárosAdmToolStripMenuItem.Text = "Usuáros [Mods]";
+            this.usuárosAdmToolStripMenuItem.Text = "Usuários [Mods]";
             // 
             // excluirUsuárioADMToolStripMenuItem1
             // 
             this.excluirUsuárioADMToolStripMenuItem1.Name = "excluirUsuárioADMToolStripMenuItem1";
-            this.excluirUsuárioADMToolStripMenuItem1.Size = new System.Drawing.Size(296, 22);
+            this.excluirUsuárioADMToolStripMenuItem1.Size = new System.Drawing.Size(303, 22);
             this.excluirUsuárioADMToolStripMenuItem1.Text = "Excluir usuário Moderador";
             this.excluirUsuárioADMToolStripMenuItem1.Click += new System.EventHandler(this.excluirUsuárioADMToolStripMenuItem1_Click);
             // 
             // atualizarUsuarioADMToolStripMenuItem
             // 
             this.atualizarUsuarioADMToolStripMenuItem.Name = "atualizarUsuarioADMToolStripMenuItem";
-            this.atualizarUsuarioADMToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
+            this.atualizarUsuarioADMToolStripMenuItem.Size = new System.Drawing.Size(303, 22);
             this.atualizarUsuarioADMToolStripMenuItem.Text = "Atualizar dados Moderador";
             this.atualizarUsuarioADMToolStripMenuItem.Click += new System.EventHandler(this.atualizarUsuarioADMToolStripMenuItem_Click);
             // 
             // consultarDadosDeUsuáriosADMToolStripMenuItem1
             // 
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Name = "consultarDadosDeUsuáriosADMToolStripMenuItem1";
-            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Size = new System.Drawing.Size(296, 22);
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Size = new System.Drawing.Size(303, 22);
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Text = "Consultar dados de usuários Moderadores";
             this.consultarDadosDeUsuáriosADMToolStripMenuItem1.Click += new System.EventHandler(this.consultarDadosDeUsuáriosADMToolStripMenuItem1_Click);
             // 
@@ -121,21 +121,21 @@
             // excluirUsuárioWebToolStripMenuItem1
             // 
             this.excluirUsuárioWebToolStripMenuItem1.Name = "excluirUsuárioWebToolStripMenuItem1";
-            this.excluirUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(250, 22);
+            this.excluirUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(257, 22);
             this.excluirUsuárioWebToolStripMenuItem1.Text = "Excluir usuário Web";
             this.excluirUsuárioWebToolStripMenuItem1.Click += new System.EventHandler(this.excluirUsuárioWebToolStripMenuItem1_Click);
             // 
             // atualizarUsuárioWebToolStripMenuItem1
             // 
             this.atualizarUsuárioWebToolStripMenuItem1.Name = "atualizarUsuárioWebToolStripMenuItem1";
-            this.atualizarUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(250, 22);
+            this.atualizarUsuárioWebToolStripMenuItem1.Size = new System.Drawing.Size(257, 22);
             this.atualizarUsuárioWebToolStripMenuItem1.Text = "Atualizar usuário Web";
             this.atualizarUsuárioWebToolStripMenuItem1.Click += new System.EventHandler(this.atualizarUsuárioWebToolStripMenuItem1_Click);
             // 
             // consultarDadosDeUsuáriosWebToolStripMenuItem
             // 
             this.consultarDadosDeUsuáriosWebToolStripMenuItem.Name = "consultarDadosDeUsuáriosWebToolStripMenuItem";
-            this.consultarDadosDeUsuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.consultarDadosDeUsuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.consultarDadosDeUsuáriosWebToolStripMenuItem.Text = "Consultar dados de usuários Web";
             this.consultarDadosDeUsuáriosWebToolStripMenuItem.Click += new System.EventHandler(this.consultarDadosDeUsuáriosWebToolStripMenuItem_Click);
             // 
@@ -170,19 +170,19 @@
             // excluirUsuárioADMToolStripMenuItem
             // 
             this.excluirUsuárioADMToolStripMenuItem.Name = "excluirUsuárioADMToolStripMenuItem";
-            this.excluirUsuárioADMToolStripMenuItem.Size = new System.Drawing.Size(253, 22);
+            this.excluirUsuárioADMToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.excluirUsuárioADMToolStripMenuItem.Text = "Excluir usuário ADM";
             // 
             // atualizarDadosADMToolStripMenuItem
             // 
             this.atualizarDadosADMToolStripMenuItem.Name = "atualizarDadosADMToolStripMenuItem";
-            this.atualizarDadosADMToolStripMenuItem.Size = new System.Drawing.Size(253, 22);
+            this.atualizarDadosADMToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.atualizarDadosADMToolStripMenuItem.Text = "Atualizar dados ADM";
             // 
             // consultarDadosDeUsuáriosADMToolStripMenuItem
             // 
             this.consultarDadosDeUsuáriosADMToolStripMenuItem.Name = "consultarDadosDeUsuáriosADMToolStripMenuItem";
-            this.consultarDadosDeUsuáriosADMToolStripMenuItem.Size = new System.Drawing.Size(253, 22);
+            this.consultarDadosDeUsuáriosADMToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.consultarDadosDeUsuáriosADMToolStripMenuItem.Text = "Consultar dados de usuários ADM";
             // 
             // usuáriosWebToolStripMenuItem
@@ -198,19 +198,19 @@
             // excluirUsuárioWebToolStripMenuItem
             // 
             this.excluirUsuárioWebToolStripMenuItem.Name = "excluirUsuárioWebToolStripMenuItem";
-            this.excluirUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.excluirUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.excluirUsuárioWebToolStripMenuItem.Text = "Excluir usuário Web";
             // 
             // atualizarUsuárioWebToolStripMenuItem
             // 
             this.atualizarUsuárioWebToolStripMenuItem.Name = "atualizarUsuárioWebToolStripMenuItem";
-            this.atualizarUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.atualizarUsuárioWebToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.atualizarUsuárioWebToolStripMenuItem.Text = "Atualizar usuário Web";
             // 
             // consultarDadosDeUisuáriosWebToolStripMenuItem
             // 
             this.consultarDadosDeUisuáriosWebToolStripMenuItem.Name = "consultarDadosDeUisuáriosWebToolStripMenuItem";
-            this.consultarDadosDeUisuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.consultarDadosDeUisuáriosWebToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
             this.consultarDadosDeUisuáriosWebToolStripMenuItem.Text = "Consultar dados de usuários Web";
             // 
             // toolStripMenuItem1
